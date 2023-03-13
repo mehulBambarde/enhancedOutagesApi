@@ -32,29 +32,6 @@ mvn clean deploy
 
 Refer to the [OSSRH Guide](http://central.sonatype.org/pages/ossrh-guide.html) for more information.
 
-### Maven users
-
-Add this dependency to your project's POM:
-
-```xml
-<dependency>
-  <groupId>io.swagger</groupId>
-  <artifactId>swagger-java-client</artifactId>
-  <version>1.0.0</version>
-  <scope>compile</scope>
-</dependency>
-```
-
-### Gradle users
-
-Add this dependency to your project's build file:
-
-```groovy
-compile "io.swagger:swagger-java-client:1.0.0"
-```
-
-### Others
-
 At first generate the JAR by executing:
 
 ```shell
