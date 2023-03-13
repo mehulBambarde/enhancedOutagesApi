@@ -59,8 +59,12 @@ At first generate the JAR by executing:
 
 ```shell
 mvn clean package
-This will create three separate jars for test, generated sources and the main jar.
-You can run these jars directly by running java jar target/<--enter jar name-->
 ```
 
+This will create three separate jars for test, generated sources and the main jar.
+You can run these jars directly by running the below command
+
+```java
+java jar target/<--enter jar name-->
+```
 
